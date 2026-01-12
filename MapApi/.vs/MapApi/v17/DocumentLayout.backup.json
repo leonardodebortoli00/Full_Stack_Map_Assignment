@@ -1,0 +1,173 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\leona\\Desktop\\Uni\\Full Stack\\MapApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E41B8267-5816-4C0A-8700-E6648C34E794}|MapApi\\MapApi.csproj|c:\\users\\leona\\desktop\\uni\\full stack\\mapapi\\mapapi\\models\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E41B8267-5816-4C0A-8700-E6648C34E794}|MapApi\\MapApi.csproj|solutionrelative:mapapi\\models\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E41B8267-5816-4C0A-8700-E6648C34E794}|MapApi\\MapApi.csproj|c:\\users\\leona\\desktop\\uni\\full stack\\mapapi\\mapapi\\models\\edge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E41B8267-5816-4C0A-8700-E6648C34E794}|MapApi\\MapApi.csproj|solutionrelative:mapapi\\models\\edge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E41B8267-5816-4C0A-8700-E6648C34E794}|MapApi\\MapApi.csproj|c:\\users\\leona\\desktop\\uni\\full stack\\mapapi\\mapapi\\models\\graph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E41B8267-5816-4C0A-8700-E6648C34E794}|MapApi\\MapApi.csproj|solutionrelative:mapapi\\models\\graph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E41B8267-5816-4C0A-8700-E6648C34E794}|MapApi\\MapApi.csproj|c:\\users\\leona\\desktop\\uni\\full stack\\mapapi\\mapapi\\services\\imapservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E41B8267-5816-4C0A-8700-E6648C34E794}|MapApi\\MapApi.csproj|solutionrelative:mapapi\\services\\imapservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E41B8267-5816-4C0A-8700-E6648C34E794}|MapApi\\MapApi.csproj|c:\\users\\leona\\desktop\\uni\\full stack\\mapapi\\mapapi\\services\\mapservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E41B8267-5816-4C0A-8700-E6648C34E794}|MapApi\\MapApi.csproj|solutionrelative:mapapi\\services\\mapservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E41B8267-5816-4C0A-8700-E6648C34E794}|MapApi\\MapApi.csproj|c:\\users\\leona\\desktop\\uni\\full stack\\mapapi\\mapapi\\middleware\\apikeymiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E41B8267-5816-4C0A-8700-E6648C34E794}|MapApi\\MapApi.csproj|solutionrelative:mapapi\\middleware\\apikeymiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E41B8267-5816-4C0A-8700-E6648C34E794}|MapApi\\MapApi.csproj|c:\\users\\leona\\desktop\\uni\\full stack\\mapapi\\mapapi\\controllers\\mapcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E41B8267-5816-4C0A-8700-E6648C34E794}|MapApi\\MapApi.csproj|solutionrelative:mapapi\\controllers\\mapcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E41B8267-5816-4C0A-8700-E6648C34E794}|MapApi\\MapApi.csproj|c:\\users\\leona\\desktop\\uni\\full stack\\mapapi\\mapapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E41B8267-5816-4C0A-8700-E6648C34E794}|MapApi\\MapApi.csproj|solutionrelative:mapapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E41B8267-5816-4C0A-8700-E6648C34E794}|MapApi\\MapApi.csproj|c:\\users\\leona\\desktop\\uni\\full stack\\mapapi\\mapapi\\mapapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E41B8267-5816-4C0A-8700-E6648C34E794}|MapApi\\MapApi.csproj|solutionrelative:mapapi\\mapapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\leona\\Desktop\\Uni\\Full Stack\\MapApi\\MapApi\\Program.cs",
+              "RelativeDocumentMoniker": "MapApi\\Program.cs",
+              "ToolTip": "C:\\Users\\leona\\Desktop\\Uni\\Full Stack\\MapApi\\MapApi\\Program.cs",
+              "RelativeToolTip": "MapApi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T11:41:07.969Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MapController.cs",
+              "DocumentMoniker": "C:\\Users\\leona\\Desktop\\Uni\\Full Stack\\MapApi\\MapApi\\Controllers\\MapController.cs",
+              "RelativeDocumentMoniker": "MapApi\\Controllers\\MapController.cs",
+              "ToolTip": "C:\\Users\\leona\\Desktop\\Uni\\Full Stack\\MapApi\\MapApi\\Controllers\\MapController.cs",
+              "RelativeToolTip": "MapApi\\Controllers\\MapController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T11:40:40.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApiKeyMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\leona\\Desktop\\Uni\\Full Stack\\MapApi\\MapApi\\Middleware\\ApiKeyMiddleware.cs",
+              "RelativeDocumentMoniker": "MapApi\\Middleware\\ApiKeyMiddleware.cs",
+              "ToolTip": "C:\\Users\\leona\\Desktop\\Uni\\Full Stack\\MapApi\\MapApi\\Middleware\\ApiKeyMiddleware.cs",
+              "RelativeToolTip": "MapApi\\Middleware\\ApiKeyMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T11:39:35.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MapService.cs",
+              "DocumentMoniker": "C:\\Users\\leona\\Desktop\\Uni\\Full Stack\\MapApi\\MapApi\\Services\\MapService.cs",
+              "RelativeDocumentMoniker": "MapApi\\Services\\MapService.cs",
+              "ToolTip": "C:\\Users\\leona\\Desktop\\Uni\\Full Stack\\MapApi\\MapApi\\Services\\MapService.cs",
+              "RelativeToolTip": "MapApi\\Services\\MapService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T11:36:58.785Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IMapService.cs",
+              "DocumentMoniker": "C:\\Users\\leona\\Desktop\\Uni\\Full Stack\\MapApi\\MapApi\\Services\\IMapService.cs",
+              "RelativeDocumentMoniker": "MapApi\\Services\\IMapService.cs",
+              "ToolTip": "C:\\Users\\leona\\Desktop\\Uni\\Full Stack\\MapApi\\MapApi\\Services\\IMapService.cs",
+              "RelativeToolTip": "MapApi\\Services\\IMapService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T11:35:13.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Graph.cs",
+              "DocumentMoniker": "C:\\Users\\leona\\Desktop\\Uni\\Full Stack\\MapApi\\MapApi\\Models\\Graph.cs",
+              "RelativeDocumentMoniker": "MapApi\\Models\\Graph.cs",
+              "ToolTip": "C:\\Users\\leona\\Desktop\\Uni\\Full Stack\\MapApi\\MapApi\\Models\\Graph.cs",
+              "RelativeToolTip": "MapApi\\Models\\Graph.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T11:34:17.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Edge.cs",
+              "DocumentMoniker": "C:\\Users\\leona\\Desktop\\Uni\\Full Stack\\MapApi\\MapApi\\Models\\Edge.cs",
+              "RelativeDocumentMoniker": "MapApi\\Models\\Edge.cs",
+              "ToolTip": "C:\\Users\\leona\\Desktop\\Uni\\Full Stack\\MapApi\\MapApi\\Models\\Edge.cs",
+              "RelativeToolTip": "MapApi\\Models\\Edge.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T11:32:55.628Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Node.cs",
+              "DocumentMoniker": "C:\\Users\\leona\\Desktop\\Uni\\Full Stack\\MapApi\\MapApi\\Models\\Node.cs",
+              "RelativeDocumentMoniker": "MapApi\\Models\\Node.cs",
+              "ToolTip": "C:\\Users\\leona\\Desktop\\Uni\\Full Stack\\MapApi\\MapApi\\Models\\Node.cs",
+              "RelativeToolTip": "MapApi\\Models\\Node.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T11:32:13.165Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MapApi",
+              "DocumentMoniker": "C:\\Users\\leona\\Desktop\\Uni\\Full Stack\\MapApi\\MapApi\\MapApi.csproj",
+              "RelativeDocumentMoniker": "MapApi\\MapApi.csproj",
+              "ToolTip": "C:\\Users\\leona\\Desktop\\Uni\\Full Stack\\MapApi\\MapApi\\MapApi.csproj*",
+              "RelativeToolTip": "MapApi\\MapApi.csproj*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-12T11:31:19.448Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
