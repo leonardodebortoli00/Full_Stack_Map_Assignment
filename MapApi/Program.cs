@@ -15,7 +15,7 @@ namespace MapApi
             builder.Services.AddSwaggerGen();
 
             var app = builder.Build();
-
+            builder.Services.AddScoped<MapApi.Services.IMapService, MapApi.Services.MapService>();
             if (app.Environment.IsDevelopment())
             {
                 app.UseHttpsRedirection();
