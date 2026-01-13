@@ -3,6 +3,8 @@ WORKDIR /app
 EXPOSE 10000
 
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+ENV ASPNETCORE_URLS=http://+:10000
+ENV ASPNETCORE_ENVIRONMENT=Production
 WORKDIR /src
 
 # Copy csproj FROM correct subfolder location

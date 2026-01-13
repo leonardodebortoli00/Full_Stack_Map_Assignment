@@ -1,4 +1,6 @@
 
+using MapApi.Middleware;
+
 namespace MapApi
 {
     public class Program
@@ -14,24 +16,19 @@ namespace MapApi
 
             var app = builder.Build();
 
-            if (!app.Environment.IsDevelopment())
-            {
-                var port = Environment.GetEnvironmentVariable("PORT") ?? "8080";
-                builder.WebHost.UseUrls($"http://0.0.0.0:{port}");
-            }
-
             if (app.Environment.IsDevelopment())
             {
+                app.UseHttpsRedirection();
                 app.UseSwagger();
                 app.UseSwaggerUI();
             }
 
-            app.UseHttpsRedirection();
-
-            app.UseAuthorization();
-
-
+            app.UseMiddleware<ApiKeyMiddleware>();
             app.MapControllers();
+
+            // Handle Render PORT
+            var port = Environment.GetEnvironmentVariable("PORT") ?? "8080";
+            app.Urls.Add($"http://0.0.0.0:{port}");
 
             app.Run();
         }
