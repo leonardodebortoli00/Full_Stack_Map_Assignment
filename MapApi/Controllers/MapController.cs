@@ -13,11 +13,21 @@ namespace MapApi.Controllers
         public MapController(IMapService mapService) => _mapService = mapService;
 
         [HttpPost("SetMap")]
-        public IActionResult SetMap([FromBody] Graph graph)
+        public IActionResult SetMap([FromBody] Graph? graph)
         {
+            if (graph == null || graph.Nodes == null || !graph.Nodes.Any() ||
+                graph.Edges == null || !graph.Edges.Any())
+                return BadRequest("Invalid map: empty nodes or edges");
+
             _mapService.SetMap(graph);
-            return Ok();
+            return Ok(new
+            {
+                success = true,
+                nodes = graph.Nodes.Count,
+                edges = graph.Edges.Count
+            });
         }
+
 
         [HttpGet("GetMap")]
         public IActionResult GetMap() => Ok(_mapService.GetMap());
