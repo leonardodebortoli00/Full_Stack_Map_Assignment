@@ -4,9 +4,15 @@ EXPOSE 10000
 
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
-COPY ["MapApi.csproj", "."]
-RUN dotnet restore "MapApi.csproj"
+
+# COPY YOUR EXACT .csproj filename here
+COPY ["MapApi.csproj", "./"]
+
+RUN dotnet restore "./MapApi.csproj"
+
+# Copy ALL source code
 COPY . .
+
 WORKDIR "/src"
 RUN dotnet build "MapApi.csproj" -c Release -o /app/build
 
