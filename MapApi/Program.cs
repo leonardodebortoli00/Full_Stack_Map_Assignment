@@ -1,5 +1,6 @@
 
 using MapApi.Middleware;
+using MapApi.Services;
 
 namespace MapApi
 {
@@ -13,9 +14,9 @@ namespace MapApi
             builder.Services.AddControllers();
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
-
+            builder.Services.AddScoped<IMapService, MapService>();
+            
             var app = builder.Build();
-            builder.Services.AddScoped<MapApi.Services.IMapService, MapApi.Services.MapService>();
             if (app.Environment.IsDevelopment())
             {
                 app.UseHttpsRedirection();
