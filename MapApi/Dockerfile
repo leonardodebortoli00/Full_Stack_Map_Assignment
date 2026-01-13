@@ -5,14 +5,14 @@ EXPOSE 10000
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
 
-# Copy ONLY the .csproj (matches your screenshot)
-COPY ["MapApi.csproj", "./"]
+# Copy csproj FROM correct subfolder location
+COPY ["MapApi/MapApi.csproj", "./"]
 
-# Restore packages (Docker layer cache)
+# Restore
 RUN dotnet restore "./MapApi.csproj"
 
-# Copy ALL other files to same directory
-COPY . .
+# Copy entire project folder
+COPY ["MapApi/", "./"]
 
 WORKDIR "/src"
 RUN dotnet build "MapApi.csproj" -c Release -o /app/build
