@@ -25,15 +25,37 @@ namespace MapApi.Controllers
         [HttpGet("ShortestRoute")]
         public IActionResult ShortestRoute([FromQuery] string from, [FromQuery] string to)
         {
-            string? path = _mapService.GetShortestRoute(from.ToUpper(), to.ToUpper());
-            return path != null ? Ok(path) : NotFound("No path");
+            try
+            {
+                string? path = _mapService.GetShortestRoute(from.ToUpper(), to.ToUpper());
+                return Ok(path);
+            }
+            catch (InvalidOperationException ex)
+            {
+                return BadRequest(ex.Message);
+            }
+            catch (ArgumentException ex)
+            {
+                return BadRequest(ex.Message);
+            }
         }
 
         [HttpGet("ShortestDistance")]
         public IActionResult ShortestDistance([FromQuery] string from, [FromQuery] string to)
         {
-            int dist = _mapService.GetShortestDistance(from.ToUpper(), to.ToUpper());
-            return dist != -1 ? Ok(dist) : NotFound("No path");
+            try
+            {
+                int dist = _mapService.GetShortestDistance(from.ToUpper(), to.ToUpper());
+                return Ok(dist);
+            }
+            catch (InvalidOperationException ex)
+            {
+                return BadRequest(ex.Message);
+            }
+            catch (ArgumentException ex)
+            {
+                return BadRequest(ex.Message);
+            }
         }
     }
 }

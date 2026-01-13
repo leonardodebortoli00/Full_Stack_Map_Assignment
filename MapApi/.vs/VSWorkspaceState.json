@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\MapApi",
+    "\\MapApi\\Controllers",
+    "\\MapApi\\Middleware",
+    "\\MapApi\\Models",
+    "\\MapApi\\Services"
+  ],
+  "SelectedNode": "\\MapApi\\MapApi.csproj",
+  "PreviewInSolutionExplorer": false
+}

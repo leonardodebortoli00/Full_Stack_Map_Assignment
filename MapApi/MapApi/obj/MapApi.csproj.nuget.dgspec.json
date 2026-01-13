@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\leona\\Desktop\\Uni\\Full Stack\\MapApi\\MapApi\\MapApi.csproj": {}
+    "C:\\Users\\leona\\Desktop\\Uni\\Full Stack\\Full_Stack_Map_Assignment\\MapApi\\MapApi\\MapApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\leona\\Desktop\\Uni\\Full Stack\\MapApi\\MapApi\\MapApi.csproj": {
+    "C:\\Users\\leona\\Desktop\\Uni\\Full Stack\\Full_Stack_Map_Assignment\\MapApi\\MapApi\\MapApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\leona\\Desktop\\Uni\\Full Stack\\MapApi\\MapApi\\MapApi.csproj",
+        "projectUniqueName": "C:\\Users\\leona\\Desktop\\Uni\\Full Stack\\Full_Stack_Map_Assignment\\MapApi\\MapApi\\MapApi.csproj",
         "projectName": "MapApi",
-        "projectPath": "C:\\Users\\leona\\Desktop\\Uni\\Full Stack\\MapApi\\MapApi\\MapApi.csproj",
+        "projectPath": "C:\\Users\\leona\\Desktop\\Uni\\Full Stack\\Full_Stack_Map_Assignment\\MapApi\\MapApi\\MapApi.csproj",
         "packagesPath": "C:\\Users\\leona\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\leona\\Desktop\\Uni\\Full Stack\\MapApi\\MapApi\\obj\\",
+        "outputPath": "C:\\Users\\leona\\Desktop\\Uni\\Full Stack\\Full_Stack_Map_Assignment\\MapApi\\MapApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

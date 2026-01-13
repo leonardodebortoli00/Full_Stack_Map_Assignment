@@ -27,6 +27,12 @@ namespace MapApi.Services
 
         public string? GetShortestRoute(string from, string to)
         {
+            ArgumentException.ThrowIfNullOrEmpty(from);
+            ArgumentException.ThrowIfNullOrEmpty(to);
+            if (_adjacency == null)
+                throw new InvalidOperationException("Map has not been set");
+            if (!_adjacency.ContainsKey(from) || !_adjacency.ContainsKey(to))
+                throw new InvalidOperationException("Unknown node");
             if (_adjacency?.ContainsKey(from) != true || !_adjacency.ContainsKey(to)) return null;
             var (_, prev) = Dijkstra(from);
             if (!prev.ContainsKey(to)) return null;
@@ -40,6 +46,12 @@ namespace MapApi.Services
 
         public int GetShortestDistance(string from, string to)
         {
+            ArgumentException.ThrowIfNullOrEmpty(from);
+            ArgumentException.ThrowIfNullOrEmpty(to);
+            if (_adjacency == null)
+                throw new InvalidOperationException("Map has not been set");
+            if (!_adjacency.ContainsKey(from) || !_adjacency.ContainsKey(to))
+                throw new InvalidOperationException("Unknown node");
             if (_adjacency?.ContainsKey(from) != true || !_adjacency.ContainsKey(to)) return -1;
             var (dist, _) = Dijkstra(from);
             return dist.TryGetValue(to, out var d) ? d : -1;

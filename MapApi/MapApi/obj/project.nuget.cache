@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BWgMwPaxfIY=",
+  "dgSpecHash": "8JYIqGwCaCQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\leona\\Desktop\\Uni\\Full Stack\\MapApi\\MapApi\\MapApi.csproj",
+  "projectFilePath": "C:\\Users\\leona\\Desktop\\Uni\\Full Stack\\Full_Stack_Map_Assignment\\MapApi\\MapApi\\MapApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\leona\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
     "C:\\Users\\leona\\.nuget\\packages\\microsoft.openapi\\1.6.14\\microsoft.openapi.1.6.14.nupkg.sha512",
